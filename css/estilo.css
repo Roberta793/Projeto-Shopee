@@ -1,0 +1,138 @@
+/* estilo.css */
+html, body, #inicio {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: plum;
+    background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Estilize a barra de navegação */
+.navbar {
+    background-color: palevioletred; /* Cor de fundo da barra */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+}
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(128, 0, 128, 0.425);
+}
+
+/* Estilize o logotipo da marca */
+.navbar-brand img {
+    max-width: 100px; /* Largura máxima do logotipo */
+}
+
+/* Estilize os links da barra de navegação */
+.navbar-nav .nav-link {
+    color: #333; /* Cor do texto dos links */
+    font-weight: bold; /* Peso da fonte */
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+/* Estilize o link ativo */
+.navbar-nav .nav-link.active {
+    color: orange; /* Cor do link ativo */
+}
+
+/* Estilize o menu suspenso (dropdown) */
+.dropdown-menu {
+    background-color:purple; /* Cor de fundo do menu suspenso */
+    border: none; /* Remova a borda */
+}
+
+/* Estilize os itens do menu suspenso */
+.dropdown-item {
+    color: plum; /* Cor do texto dos itens */
+    font-weight: normal; /* Peso da fonte */
+}
+
+/* Estilize o item desativado do menu suspenso */
+.dropdown-item.disabled {
+    color: #ccc; /* Cor do texto desativado */
+}
+/* Capa
+-----------------------------*/
+.capa {
+	text-align: center;
+}
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+
+/* Estilize a seção de produtos */
+#inicio {
+    padding: 50px 0; /* Espaçamento interno superior e inferior */
+    background-color: lightcoral; /* Cor de fundo da seção */
+}
+
+/* Estilize os cards de produtos */
+.card {
+    border: 1px solid white; /* Borda dos cards */
+    border-radius: 10px; /* Cantos arredondados */
+    margin-bottom: 20px; /* Espaçamento entre os ca
+    rds */
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.25rem; /* Tamanho do título do produto */
+    font-weight: bold; /* Peso da fonte */
+}
+
+.card-text {
+    font-size: 0.875rem; /* Tamanho do texto de descrição */
+    color: #555; /* Cor do texto */
+}
+
+.card-price {
+    font-size: 1rem; /* Tamanho do preço */
+    font-weight: bold; /* Peso da fonte */
+    color: #0c0c0c; /* Cor do preço */
+}
+
+.btn-primary {
+    background-color: palevioletred; /* Cor de fundo do botão */
+    border: none; /* Remova a borda */
+    font-weight: bold; /* Peso da fonte */
+}
+
+.btn-primary:hover {
+    background-color: lightcoral; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background: orangered;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
